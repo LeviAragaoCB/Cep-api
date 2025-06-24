@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onde eu moro?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Consultar CEP:</h1>
+
+    <form>
+        <label class="form-label" for="">CEP</label>
+        <input class="form-control" type="number" name="cep" id="cep">
+
+        <label class="form-label" for="">Logradouro</label>
+        <input class="form-control" type="text" name="logradouro" id="logradouro">
+
+        <label class="form-label" for="">Nº</label>
+        <input class="form-control" type="number" name="number" id="number">
+
+        <label class="form-label" for="">Complemento</label>
+        <input class="form-control" type="text" name="complemento" id="complemento">
+
+        <label class="form-label" for="">Bairro</label>
+        <input class="form-control" type="text" name="bairro" id="bairro">
+
+        <label class="form-label" for="">UF</label>
+        <select class="form-select" aria-label="Default select example" id="uf">
+            <option selected>Selecione...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+          <label class="form-label" for="">Localidade</label>
+          <select class="form-select" aria-label="Default select example" id="localidade">
+            <option selected>Selecione...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+        <button class="btn">Enviar</button>
+        <button class="btn">Limpar</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="Cep_script.js"></script>
+</body>
+
+</html>
