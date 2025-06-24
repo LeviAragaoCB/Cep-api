@@ -12,40 +12,57 @@
 <body>
     <h1>Consultar CEP:</h1>
 
-    <form>
-        <label class="form-label" for="">CEP</label>
-        <input class="form-control" type="number" name="cep" id="cep">
+    <form class="row g-3">
+        <div class="col-md-2">
+            <label class="form-label" for="">CEP</label>
+            <input class="form-control" type="number" name="cep" id="cep">
+        </div>
 
-        <label class="form-label" for="">Logradouro</label>
-        <input class="form-control" type="text" name="logradouro" id="logradouro">
+        <div class="col-md-6">
+            <label class="form-label" for="">Logradouro</label>
+            <input class="form-control" type="text" name="logradouro" id="logradouro">
+        </div>
 
-        <label class="form-label" for="">Nº</label>
-        <input class="form-control" type="number" name="number" id="number">
+        <div class="col-md-2">
+            <label class="form-label" for="">Nº</label>
+            <input class="form-control" type="number" name="number" id="number">
+        </div>
 
-        <label class="form-label" for="">Complemento</label>
-        <input class="form-control" type="text" name="complemento" id="complemento">
+        <div class="col-md-10">
+            <label class="form-label" for="">Complemento</label>
+            <input class="form-control" type="text" name="complemento" id="complemento">
+        </div>
 
-        <label class="form-label" for="">Bairro</label>
-        <input class="form-control" type="text" name="bairro" id="bairro">
+        <div class="col-md-6">
+            <label class="form-label" for="">Bairro</label>
+            <input class="form-control" type="text" name="bairro" id="bairro">
+        </div>
 
-        <label class="form-label" for="">UF</label>
-        <select class="form-select" aria-label="Default select example" id="uf">
-            <option selected>Selecione...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
+        <div class="col-md-2">
+             <label class="form-label" for="">UF</label>
+            <select class="form-select" aria-label="Default select example" id="uf">
+                <option selected>Selecione...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
 
-          <label class="form-label" for="">Localidade</label>
-          <select class="form-select" aria-label="Default select example" id="localidade">
-            <option selected>Selecione...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
+        <div class="col-md-2">
+            <label class="form-label" for="">Localidade</label>
+            <select class="form-select" aria-label="Default select example" id="localidade">
+                <option selected>Selecione...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
 
-        <button class="btn">Enviar</button>
-        <button class="btn">Limpar</button>
+        <div class="col-md-12">
+            <button class="btn btn-success">Enviar</button>
+            <button class="btn btn-ligth">Limpar</button>
+        </div>
+        
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
